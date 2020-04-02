@@ -1,0 +1,31 @@
+body {
+    background-color: #382465;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 900px;
+    min-height:700px;
+    overflow: hidden;
+}
+
+
+.ui.button {
+    background-color: #69607F;
+
+}
+
+.editorToolbar, .previewToolbar {
+    margin-bottom: 5px;
+    display:flex;
+    justify-content: flex-start;
+}
+
+.mdPreview {
+    background-color:#f0f0f0;
+    color: #0f0f0f;
+    height: 500px;
+    padding:10px;
+    overflow-y: auto;
+    border-radius: 3px;
+}
